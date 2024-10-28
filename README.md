@@ -15,7 +15,7 @@ kind: pipeline
 name: Drone ci
 
 steps:
-- name: discord notify
+  - name: discord notify
     image: shundevhub/drone-discord-notify
     settings:
       discord_webhook_url:
